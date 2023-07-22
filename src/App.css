@@ -1,0 +1,54 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 5px;
+}
+
+.task-input button {
+  padding: 5px 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.task-list li.completed {
+  text-decoration: line-through;
+}
+
+.task-list button {
+  padding: 3px 6px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
